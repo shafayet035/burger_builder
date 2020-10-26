@@ -1,0 +1,38 @@
+.burger-controls {
+    background: #450101;
+    padding: 6rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center
+}
+
+.burger-controls .total-price {
+ font-size: 25px;
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+.burger-controls .orderBtn {
+    background:	#e5cb7a;
+    padding: 10px 15px;
+    border: none;
+    margin: 20px 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.burger-controls .orderBtn:disabled {
+    background: #f4f4f4;
+    cursor: not-allowed;
+}
+
+
+
+@media (max-width: 991px) {
+    .burger-controls {
+        padding: 0.5rem;
+    }
+}

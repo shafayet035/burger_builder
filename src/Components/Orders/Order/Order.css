@@ -1,0 +1,18 @@
+.order {
+  box-shadow: 0px 0px 5px rgb(226, 226, 226);
+  padding: 20px;
+  margin: 20px;
+}
+
+.order p {
+  margin: 7px 0;
+}
+
+.order .ingred {
+  margin: 6px;
+  background: rgb(197, 53, 0);
+  color: white;
+  padding: 7px;
+  font-size: 12px;
+  display: inline-block;
+}

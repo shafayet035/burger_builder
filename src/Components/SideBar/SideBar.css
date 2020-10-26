@@ -1,0 +1,33 @@
+.SideBar {
+    height: 100%;
+    width: 80%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 102;
+    background: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.SideBar .Navitems {
+    margin-top: 35px;
+}
+
+.SideBar .Navitems ul {
+    list-style: none;
+}
+
+
+.SideBar .Navitems ul li a {
+    color: black;
+}
+.SideBar .Navitems ul li  {
+    margin: 20px 0;
+}
+
+.SideBar.Close {
+    transform: translateX(100vw);
+}
+.SideBar.Open {
+    transform: translateX(0);
+}

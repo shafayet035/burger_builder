@@ -1,0 +1,12 @@
+.check-main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.checkout {
+  padding: 7rem 0;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}

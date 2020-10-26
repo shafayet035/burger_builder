@@ -1,0 +1,21 @@
+.burger-container {
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.burger {
+  max-width: 400px;
+  width: 100%;
+  height: 400px;
+}
+
+@media (max-width: 991px) {
+  .burger {
+    height: 300px;
+  }
+}

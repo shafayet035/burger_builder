@@ -1,0 +1,21 @@
+.Navitem a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px 14px;
+  transition: all 0.2s ease;
+  border-radius: 3px;
+  line-height: 0;
+  font-weight: bold;
+}
+
+.Navitem li {
+  list-style: none;
+}
+
+.Navitem a.active {
+  background: orange;
+}
+
+.Navitem a:hover {
+  color: rgb(168, 151, 0);
+}

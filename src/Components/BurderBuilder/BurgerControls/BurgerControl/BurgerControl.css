@@ -1,0 +1,50 @@
+.burger-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.burger-control label {
+  margin-right: 10px;
+  font-size: 26px;
+}
+
+.burger-control .add {
+  padding: 7px 15px;
+  background: #e5cb7a;
+  border: none;
+  font-size: 18px;
+  margin: 0px 6px;
+  cursor: pointer;
+  outline: none;
+}
+.burger-control .remove {
+  padding: 7px 15px;
+  background: #ec3521;
+  color: white;
+  border: none;
+  font-size: 18px;
+  margin: 0px 6px;
+  cursor: pointer;
+  outline: none;
+}
+
+.burger-control .remove:disabled {
+  background: #f7786a;
+  cursor: auto;
+}
+
+@media (max-width: 991px) {
+  .burger-control label {
+    font-size: 18px;
+  }
+
+  .burger-control .add {
+    font-size: 15px;
+  }
+
+  .burger-control .remove {
+    font-size: 15px;
+  }
+}

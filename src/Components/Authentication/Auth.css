@@ -1,0 +1,36 @@
+.auth-form {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.auth-form form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    padding: 30px;
+    box-shadow: 0px 0px 2px #ccc;
+}
+
+.auth-form form input {
+    padding: 16px;
+    border: none;
+    margin: 8px 0;
+    background: #f4f4f4;
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+}
+
+.auth-form form p {
+    font-size: 12px;
+    color: grey;
+    margin: 7px 0;
+}
+
+@media(min-width: 576px) {
+    .auth-form form input {
+        width: 400px;
+    }
+}
